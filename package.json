@@ -1,0 +1,34 @@
+{
+  "name": "orbit-db-signal-protocol-example",
+  "version": "1.0.0",
+  "description": "basic example using signal-protocol with orbit-db-signal-protocol-store",
+  "scripts": {
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabcat/orbit-db-signal-protocol-example.git"
+  },
+  "keywords": [
+    "orbit-db",
+    "signal-protocol"
+  ],
+  "author": "andersb@tuta.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tabcat/orbit-db-signal-protocol-example/issues"
+  },
+  "homepage": "https://github.com/tabcat/orbit-db-signal-protocol-example#readme",
+  "devDependencies": {
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@tabcat/orbit-db-signal-protocol-store": "^1.0.1",
+    "@tabcat/signal-protocol": "^0.1.3",
+    "ipfs": "^0.36.4",
+    "orbit-db": "^0.21.3"
+  }
+}
